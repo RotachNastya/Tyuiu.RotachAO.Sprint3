@@ -5,11 +5,11 @@ public class DataService : ISprint3Task0V7
 {
     public double GetSumSeries(double value, int startValue, int stopValue)
     {
-    double sumSeries = 0;
+        double sumSeries = 0;
         for (int i = startValue; i <= stopValue; i++)
         {
             sumSeries = sumSeries + ((Math.Pow(value, i) + 1) * Math.Cos(i));
         }
         return Math.Round(sumSeries, 3);
     }
-} 
+}
