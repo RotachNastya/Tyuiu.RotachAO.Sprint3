@@ -6,7 +6,7 @@ class Program
 { 
     static void Main(string[] args) 
     { 
-        DataService dataService = new DataService();
+        DataService ds = new DataService();
         Console.Title = "Спринт #3 | Выполнил: Ротач. А. О. | ИИПб-24-1"; 
         Console.WriteLine("************************************************************************"); 
         Console.WriteLine("* Спринт #3                                                            *"); 
@@ -24,8 +24,8 @@ class Program
         int stopValue = 10; 
         Console.WriteLine("Старт шага = "  + startValue); 
         int x = int.Parse(Console.ReadLine()!); 
-        Console.WriteLine("Конец шага = " + stopValue); 
-        int y = int.Parse(Console.ReadLine()!); 
+        Console.WriteLine("Конец шага = " + stopValue);
+        int y = int.Parse(Console.ReadLine()!);
  
         Console.WriteLine("************************************************************************"); 
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                           *"); 
