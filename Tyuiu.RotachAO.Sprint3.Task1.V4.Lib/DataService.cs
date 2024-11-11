@@ -9,7 +9,7 @@ public class DataService : ISprint3Task1V4
         double sumSeries = 0;
         while (startValue <= stopValue)
         {
-            sumSeries = sumSeries + (Math.Pow(1 / startValue, 2));
+            sumSeries = sumSeries + (Math.Pow(1.0 / startValue, 2));
             startValue++;
         }
         return Math.Round(sumSeries, 3);
