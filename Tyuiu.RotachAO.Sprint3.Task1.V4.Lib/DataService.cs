@@ -6,7 +6,7 @@ public class DataService : ISprint3Task1V4
 {
     public double GetSumSeries(int startValue, int stopValue)
     {
-        double sumSeries = 1;
+        double sumSeries = 0;
         while (startValue <= stopValue)
         {
             sumSeries = sumSeries + (Math.Pow(1 / startValue, 2));
