@@ -6,16 +6,22 @@ public class DataService : ISprint3Task3V15
 {
     public int GetMinCharCount(string value, char item)
     {
-        int res = 0;
-        char letterChr = ' ';
-        foreach (char c in value)
+        List<int> list = new List<int>();
+        char prev = value[0];
+        int count = 1;
+        foreach (char chr in value)
         {
-            if (c == item)
+            if (chr == item && prev == item)
             {
-                if (c == letterChr) res++;
+                count++;
             }
-            letterChr = c;
+            if (chr != item && prev == item)
+            {
+                list.Add(count);
+                count = 1;
+            }
+            prev = chr;
         }
-        return res;
+        return list.Where(i => i >= 2).Min();
     }
 }

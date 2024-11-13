@@ -9,10 +9,14 @@ public class DataServiceTest
    public void ValidGetMinCharCount()  
    {
         DataService ds = new DataService();
+
         string str = "lrmmse mg sermmmrt";
         char chr = 'm';
+
         double res = ds.GetMinCharCount(str, chr);
-        int wait = 1;
+
+        int wait = 2;
+
         Assert.AreEqual(wait, res);
     } 
 } 
