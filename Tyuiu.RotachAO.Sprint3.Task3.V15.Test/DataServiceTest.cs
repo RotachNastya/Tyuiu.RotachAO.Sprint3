@@ -12,7 +12,7 @@ public class DataServiceTest
         string str = "lrmmse mg sermmmrt";
         char chr = 'm';
         double res = ds.GetMinCharCount(str, chr);
-        int wait = 3;
+        int wait = 1;
         Assert.AreEqual(wait, res);
     } 
 } 
