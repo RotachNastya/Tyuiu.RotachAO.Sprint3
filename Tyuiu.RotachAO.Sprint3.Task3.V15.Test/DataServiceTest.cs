@@ -6,7 +6,7 @@ namespace Tyuiu.RotachAO.Sprint3.Task3.V15.Test;
 public class DataServiceTest 
 { 
    [TestMethod] 
-   public void ValidExpression()  
+   public void ValidGetMinCharCount()  
    {
         DataService ds = new DataService();
         string str = "lrmmse mg sermmmrt";
