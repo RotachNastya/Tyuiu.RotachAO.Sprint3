@@ -22,6 +22,6 @@ public class DataService : ISprint3Task3V15
             }
             prev = chr;
         }
-        return list.Where(i => i >= 2).Min();
+        return list.Where(i => i >= 1).Min();
     }
 }
