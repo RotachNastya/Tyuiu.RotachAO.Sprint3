@@ -6,7 +6,7 @@ namespace Tyuiu.RotachAO.Sprint3.Task6.V18.Test;
 public class DataServiceTest  
 { 
    [TestMethod] 
-   public void ValidExpression()  
+   public void ValidGetSumTheDivisors()  
    {
         DataService ds = new DataService();
 
@@ -14,7 +14,7 @@ public class DataServiceTest
         int stopValue = 18;
 
         int res = ds.GetSumTheDivisors(startValue, stopValue);
-        int wait = 1;
+        int wait = 95;
         Assert.AreEqual(res, wait);
    } 
 } 

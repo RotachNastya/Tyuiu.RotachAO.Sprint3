@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -22,6 +22,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Tyuiu.RotachAO.Sprint3.Task6.V18.Lib\Tyuiu.RotachAO.Sprint3.Task6.V18.Lib.csproj" />
+    <ProjectReference Include="..\Tyuiu.RotachAO.Sprint3.Task6.V18\Tyuiu.RotachAO.Sprint3.Task6.V18.csproj" />
   </ItemGroup>
 
 </Project>
