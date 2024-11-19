@@ -12,7 +12,7 @@ public class DataService : ISprint3Task5V28
         {
             for (k = startValue2; k <= stopValue2; k++)
             {
-                sumSeries = sumSeries + (Math.Pow(k, x )/( Math.Sin(x)));
+                sumSeries = sumSeries + (Math.Pow(k, x)/( Math.Sin(k)));
             }
         }
         return Math.Round(sumSeries, 3);
