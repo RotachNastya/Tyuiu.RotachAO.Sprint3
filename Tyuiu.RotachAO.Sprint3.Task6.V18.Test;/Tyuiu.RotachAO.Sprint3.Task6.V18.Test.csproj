@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Tyuiu.RotachAO.Sprint3.Task6.V18.Test_</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
@@ -21,7 +22,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.RotachAO.Sprint3.Task6.V18.Lib\Tyuiu.RotachAO.Sprint3.Task6.V18.Lib.csproj" />
+    <ProjectReference Include="..\Tyuiu.RotachAO.Sprint3.Task6.V18.Lib" />
+    <ProjectReference Include="\Tyuiu.RotachAO.Sprint3.Task6.V18.Lib">
+      <T></T>
+    </ProjectReference>
+    <ProjectReference Include=".csproj">
+      <T></T>
+    </ProjectReference>
   </ItemGroup>
 
 </Project>
