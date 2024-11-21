@@ -11,6 +11,8 @@ public class DataService : ISprint3Task7V11
          double[] mass = new double[stopValue - startValue + 1];
         for (x = startValue; x <= stopValue; x++)
         {
+            if (x == 1) mass[y] = 0;
+            else
             mass[y] = Math.Round(Math.Cos(x) + (Math.Sin(x) / (2 - 2 * x)) - 4*x, 2);
             y++;
         }
